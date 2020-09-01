@@ -65,7 +65,7 @@ class FilterTest extends TestCase
             TEST_FILES_PATH . 'NamespaceCoveragePublicTest.php',
             TEST_FILES_PATH . 'NamespaceCoveredClass.php',
             TEST_FILES_PATH . 'NotExistingCoveredElementTest.php',
-            TEST_FILES_PATH . 'source_with_class_and_anonymous_function.php',
+            TEST_FILES_PATH . 'anonymous_function.php',
             TEST_FILES_PATH . 'source_with_ignore.php',
             TEST_FILES_PATH . 'source_with_namespace.php',
             TEST_FILES_PATH . 'source_with_oneline_annotations.php',

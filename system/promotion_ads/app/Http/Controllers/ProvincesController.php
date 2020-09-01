@@ -13,7 +13,7 @@ class ProvincesController extends Controller
      */
     public function index()
     {
-        //
+        return view('Backend/configuration/province/index');
     }
 
     /**
@@ -23,7 +23,7 @@ class ProvincesController extends Controller
      */
     public function create()
     {
-        //
+        return view('Backend/configuration/province/create');
     }
 
     /**

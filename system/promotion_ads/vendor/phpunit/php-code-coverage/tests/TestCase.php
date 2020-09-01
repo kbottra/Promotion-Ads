@@ -332,7 +332,7 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
     protected function getCoverageForClassWithAnonymousFunction(): CodeCoverage
     {
         $filter = new Filter;
-        $filter->addFileToWhitelist(TEST_FILES_PATH . 'source_with_class_and_anonymous_function.php');
+        $filter->addFileToWhitelist(TEST_FILES_PATH . 'anonymous_function.php');
 
         $coverage = new CodeCoverage(
             $this->setUpXdebugStubForClassWithAnonymousFunction(),
@@ -353,7 +353,7 @@ abstract class TestCase extends \PHPUnit\Framework\TestCase
             ->method('stop')
             ->will($this->returnValue(
                 [
-                    TEST_FILES_PATH . 'source_with_class_and_anonymous_function.php' => [
+                    TEST_FILES_PATH . 'anonymous_function.php' => [
                         7  => 1,
                         9  => 1,
                         10 => -1,

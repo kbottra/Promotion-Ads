@@ -13,7 +13,7 @@ class ProductsController extends Controller
      */
     public function index()
     {
-//        return view('Backend/Category/list');
+        return view('Backend/manage-promotion/index');
     }
 
     /**
@@ -23,7 +23,7 @@ class ProductsController extends Controller
      */
     public function create()
     {
-        //
+        return view('Backend/manage-promotion/create');
     }
 
     /**

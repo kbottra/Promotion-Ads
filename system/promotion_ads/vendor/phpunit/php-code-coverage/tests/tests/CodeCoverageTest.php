@@ -179,7 +179,7 @@ class CodeCoverageTest extends TestCase
             ],
             $this->getLinesToBeIgnored()->invoke(
                 $this->coverage,
-                TEST_FILES_PATH . 'source_with_class_and_anonymous_function.php'
+                TEST_FILES_PATH . 'anonymous_function.php'
             )
         );
     }

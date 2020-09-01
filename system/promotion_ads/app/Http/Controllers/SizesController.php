@@ -13,7 +13,7 @@ class SizesController extends Controller
      */
     public function index()
     {
-        //
+        return view('Backend/configuration/size/index');
     }
 
     /**
@@ -23,7 +23,7 @@ class SizesController extends Controller
      */
     public function create()
     {
-        //
+        return view('Backend/configuration/size/create');
     }
 
     /**

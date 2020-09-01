@@ -13,7 +13,7 @@ class CompaniesController extends Controller
      */
     public function index()
     {
-        //
+        return view('Backend/configuration/company/index');
     }
 
     /**
@@ -23,7 +23,7 @@ class CompaniesController extends Controller
      */
     public function create()
     {
-        //
+        return view('Backend/configuration/company/create');
     }
 
     /**

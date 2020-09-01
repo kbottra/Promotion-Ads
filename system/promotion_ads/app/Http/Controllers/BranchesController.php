@@ -13,7 +13,7 @@ class BranchesController extends Controller
      */
     public function index()
     {
-        //
+        return view('Backend/configuration/branch/index');
     }
 
     /**
@@ -23,7 +23,7 @@ class BranchesController extends Controller
      */
     public function create()
     {
-        //
+        return view('Backend/configuration/branch/create');
     }
 
     /**

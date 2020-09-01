@@ -13,7 +13,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-        //
+        return view('Backend/manage-user/index');
     }
 
     /**
@@ -23,7 +23,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        return view('Backend/manage-user/create');
     }
 
     /**

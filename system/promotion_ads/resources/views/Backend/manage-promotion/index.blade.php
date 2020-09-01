@@ -11,7 +11,7 @@
                                     <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
                                         <div class="row" style="display: flex;justify-content: space-between;margin: 10px 0">
                                             <div>
-                                                <a href="{{url('category/create')}}" type="button" class="btn btn-primary"> Add New </a>
+                                                <a href="{{route('product.create')}}" type="button" class="btn btn-primary"> Add New </a>
                                             </div>
                                             <div style="display: flex">
                                                 <label>Search:</label><input type="search" class="form-control form-control-sm" placeholder="" aria-controls="DataTables_Table_0">
